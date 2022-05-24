@@ -14,6 +14,7 @@
 		EAA1F4EF283BC0DF00BF4292 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4EE283BC0DF00BF4292 /* Location.swift */; };
 		EAA1F4F1283BC4AA00BF4292 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4F0283BC4AA00BF4292 /* EditView.swift */; };
 		EAAC89D8283CE3A4006C641D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAC89D7283CE3A4006C641D /* Result.swift */; };
+		EAAC89DA283CF2CC006C641D /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAC89D9283CF2CC006C641D /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		EAA1F4EE283BC0DF00BF4292 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		EAA1F4F0283BC4AA00BF4292 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		EAAC89D7283CE3A4006C641D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EAAC89D9283CF2CC006C641D /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EAA1F4F2283BC66A00BF4292 /* View */,
 				EAA1F4EE283BC0DF00BF4292 /* Location.swift */,
 				EAAC89D7283CE3A4006C641D /* Result.swift */,
+				EAAC89D9283CF2CC006C641D /* ContentView-ViewModel.swift */,
 				EAA1F4E32837A95C00BF4292 /* Assets.xcassets */,
 				EAA1F4E52837A95C00BF4292 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA1F4E22837A95800BF4292 /* ContentView.swift in Sources */,
+				EAAC89DA283CF2CC006C641D /* ContentView-ViewModel.swift in Sources */,
 				EAAC89D8283CE3A4006C641D /* Result.swift in Sources */,
 				EAA1F4EF283BC0DF00BF4292 /* Location.swift in Sources */,
 				EAA1F4F1283BC4AA00BF4292 /* EditView.swift in Sources */,
