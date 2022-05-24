@@ -11,6 +11,8 @@
 		EAA1F4E22837A95800BF4292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4E12837A95800BF4292 /* ContentView.swift */; };
 		EAA1F4E42837A95C00BF4292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1F4E32837A95C00BF4292 /* Assets.xcassets */; };
 		EAA1F4E72837A95C00BF4292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1F4E62837A95C00BF4292 /* Preview Assets.xcassets */; };
+		EAA1F4EF283BC0DF00BF4292 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4EE283BC0DF00BF4292 /* Location.swift */; };
+		EAA1F4F1283BC4AA00BF4292 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4F0283BC4AA00BF4292 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		EAA1F4E12837A95800BF4292 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EAA1F4E32837A95C00BF4292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAA1F4E62837A95C00BF4292 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAA1F4ED283BA3CD00BF4292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAA1F4EE283BC0DF00BF4292 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		EAA1F4F0283BC4AA00BF4292 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,10 @@
 		EAA1F4DE2837A95800BF4292 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				EAA1F4ED283BA3CD00BF4292 /* Info.plist */,
 				EAA1F4DF2837A95800BF4292 /* BucketListApp.swift */,
-				EAA1F4E12837A95800BF4292 /* ContentView.swift */,
+				EAA1F4F2283BC66A00BF4292 /* View */,
+				EAA1F4EE283BC0DF00BF4292 /* Location.swift */,
 				EAA1F4E32837A95C00BF4292 /* Assets.xcassets */,
 				EAA1F4E52837A95C00BF4292 /* Preview Content */,
 			);
@@ -65,6 +72,15 @@
 				EAA1F4E62837A95C00BF4292 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EAA1F4F2283BC66A00BF4292 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1F4E12837A95800BF4292 /* ContentView.swift */,
+				EAA1F4F0283BC4AA00BF4292 /* EditView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA1F4E22837A95800BF4292 /* ContentView.swift in Sources */,
+				EAA1F4EF283BC0DF00BF4292 /* Location.swift in Sources */,
+				EAA1F4F1283BC4AA00BF4292 /* EditView.swift in Sources */,
 				EAA1F4E02837A95800BF4292 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,8 @@
 				DEVELOPMENT_TEAM = RSBH48TS8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +319,8 @@
 				DEVELOPMENT_TEAM = RSBH48TS8D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BucketList/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
