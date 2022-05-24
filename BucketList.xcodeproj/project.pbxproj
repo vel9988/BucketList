@@ -13,6 +13,7 @@
 		EAA1F4E72837A95C00BF4292 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1F4E62837A95C00BF4292 /* Preview Assets.xcassets */; };
 		EAA1F4EF283BC0DF00BF4292 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4EE283BC0DF00BF4292 /* Location.swift */; };
 		EAA1F4F1283BC4AA00BF4292 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1F4F0283BC4AA00BF4292 /* EditView.swift */; };
+		EAAC89D8283CE3A4006C641D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAC89D7283CE3A4006C641D /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EAA1F4ED283BA3CD00BF4292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EAA1F4EE283BC0DF00BF4292 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		EAA1F4F0283BC4AA00BF4292 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		EAAC89D7283CE3A4006C641D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EAA1F4DF2837A95800BF4292 /* BucketListApp.swift */,
 				EAA1F4F2283BC66A00BF4292 /* View */,
 				EAA1F4EE283BC0DF00BF4292 /* Location.swift */,
+				EAAC89D7283CE3A4006C641D /* Result.swift */,
 				EAA1F4E32837A95C00BF4292 /* Assets.xcassets */,
 				EAA1F4E52837A95C00BF4292 /* Preview Content */,
 			);
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA1F4E22837A95800BF4292 /* ContentView.swift in Sources */,
+				EAAC89D8283CE3A4006C641D /* Result.swift in Sources */,
 				EAA1F4EF283BC0DF00BF4292 /* Location.swift in Sources */,
 				EAA1F4F1283BC4AA00BF4292 /* EditView.swift in Sources */,
 				EAA1F4E02837A95800BF4292 /* BucketListApp.swift in Sources */,
